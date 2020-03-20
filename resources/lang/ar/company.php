@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'Company' => 'منشأة',
+    'companies' => 'شركات',
+    'name' => 'اسم المنشأة',
+    'username' => 'اسم المستخدم',
+    'logo' => 'الشعار',
+    'mobile' => 'الجوال',
+    'bankAccountNumber' => 'رقم حساب البنك',
+    'commercialRegistrationNumber' => 'رقم السجل التجاري',
+    'commercialRegistrationExpiryDate' => 'تاريخ انتهاء السجل التجاري',
+    'How did you find us ?' => 'كيف وجدتنا ؟',
+    'Logo' => 'الشعار',
+    'email' => 'البريد الألكتروني',
+    'password' => 'كلمة المرور',
+    'password_confirmation' => 'تأكيد كلمة المرور',
+    'summary' => 'الملخص',
+    'twitter' => ' تويتر',
+    'linkedin' => 'لنكدن',
+    'facebook' => 'فيسبوك',
+    'friends' => 'الأصدقاء',
+    'other' => 'أخرى',
+    'howDidYouFindUs' => 'كيف وجدتنا',
+    'howDidYouFindUsOther' => 'أخرى',
+    'not_space_allow' => ' لا يسمح بترك المسافات',
+    'must_be_number' => 'يجب ان يكون رقما ' ,
+    "send_email_company" => "  ارسال البريد الاليكترونى " ,
+    "important" => "مهم",
+    "Brief" => "نبذة عن المنشأة"
+];

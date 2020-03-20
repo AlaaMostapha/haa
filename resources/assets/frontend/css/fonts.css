@@ -1,0 +1,44 @@
+@font-face {
+    font-family: taj-lt;
+    src: url(../fonts/Tajawal-Light.ttf);
+}
+
+@font-face {
+    font-family: taj-rg;
+    src: url(../fonts/Tajawal-Regular.ttf);
+}
+
+@font-face {
+    font-family: taj-bd;
+    src: url(../fonts/Tajawal-Bold.ttf);
+}
+
+@font-face {
+    font-family: sans-lt;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: sans-rg;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: sans-semibold;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: sans-bd;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: sans-extra;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: dusky;
+    src: url(../fonts/PTBoldDusky.ttf);
+}

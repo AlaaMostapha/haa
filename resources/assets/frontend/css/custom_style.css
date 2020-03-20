@@ -1,0 +1,302 @@
+
+/* ========== USER ============ */
+/* profile edit */
+@media (max-width: 768px) {
+    .sign-area .custom-user {
+        transform: translateX(50%);
+    }
+}
+
+/*  Notification */
+@media (max-width: 767px) {
+    .main-head .h-extra .user-srea .notifications-menu .sub-menu {
+        min-width: 300px !important;
+        right: auto !important;
+        left: -138px !important;
+
+    }
+}
+
+/* View Task */
+.prof-sidebar .inner {
+    padding: 30px 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prof-sidebar .inner .prof-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 0 15px rgba(201, 201, 201, 0.13);
+    position: absolute;
+    top: -85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.prof-sidebar .inner .prof-info {
+    margin-top: 120px;
+}
+.prof-sidebar .inner .prof-edit h4 {
+    margin-bottom: 20px;
+}
+.prof-sidebar .inner .prof-edit .btn {
+    max-width: 100%;
+}
+@media(max-width: 768px) {
+    .custom-tabel tr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .custom-tabel td{
+      border-bottom: 0 !important
+    }
+}
+
+@media(max-width: 1024px){
+    .custom-tabel td{
+      padding: 8px !important;
+    }
+}
+
+
+
+/* ========== COMPANY ============ */
+.word-wrap {
+    word-break: break-all;
+}
+@media(max-width: 425px) {
+    .custom-company-info li {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .box-item .table td .it-price h3, .box-item .table td .it-date p {
+        font-size: 10px !important;
+    }
+    .custom-company-tasks .box-item .table td{
+      padding: 5px;
+    }
+    .custom-company-tasks .box-item .table td .status span {
+        font-size: 10px;
+    }
+    .tasks-wrap .box-item .table td .app-n{
+        padding-top: 0px;
+    }
+    .tasks-wrap .box-item .table td .app-n a {
+        font-size: 10px;
+    }
+    .sign-form .form-group .form-control span{
+        overflow: hidden !important;
+      }
+      footer {
+          text-align: center;
+      }
+      .main-footer .f-top .f-item h3:after {
+        right: 45%;
+        left: auto;
+    }
+}
+
+
+/* custome style */
+span {
+    unicode-bidi: plaintext;
+}
+
+.block .inner {
+    max-height: 500px;
+    min-height: 500px;
+}
+
+.sub-heading-custom {
+    padding: 10px 0;
+    font-size: 25px;
+    color: #9a3e71;
+}
+.mb-3 {
+    margin-bottom: 30px;
+}
+.contact li {
+    unicode-bidi: plaintext;
+}
+.call-us a {
+    direction: ltr;
+}
+.hworks .block .inner p {
+    text-align: center;
+}
+
+/* Home Page Responsive */
+.show-more-container {
+    display: flex;
+}
+.border-padding-about {
+    margin: 1rem 0 !important;
+}
+.border-padding-about-sub{
+    /* margin: 1rem !important; */
+}
+@media screen and (orientation:landscape)
+{
+    .hero-s .inner {
+        height: 100%;
+        padding-top: 18% ;
+    }
+    .home-page-video{
+        height: 100% !important;
+    }
+    .main-footer .f-top .f-item .call-us a {
+        font-size: 2rem;
+    }
+}
+@media(max-width: 425px) {
+    .headerContainer .h-extra {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .headerContainer .h-extra .visitor {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .main-footer .f-top .f-item .form-group .btn {
+        position: relative;
+        top: 10px;
+        right: 0;
+        width: 100%;
+        padding: 0 30px;
+    }
+    .hero-s .inner .caption p {
+        margin: 20px 0 20px;
+    }
+    .home-page-video {
+        height: 100%;
+    }
+    .inner-pages {
+        padding-top: 100px;
+    }
+    .filter-area .selection .select2-selection.select2-selection--multiple{
+        height: 100% !important;
+        padding: 10px !important;
+    }
+
+}
+
+@media(min-width: 426px) and (max-width: 768px) {
+    .main-footer .f-top .f-item .form-group .btn {
+        position: absolute;
+        right: 10px;
+        top: 6px;
+        padding: 0 30px;
+    }
+}
+@media(min-width: 1024px)  {
+    .block .inner {
+        max-height: 600px;
+        min-height: 600px;
+    }
+    .positionCentered {
+        top: 60% !important;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .main-footer .f-top .f-item .call-us a {
+        font-size: 30px;
+    }
+
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-width: 320px) and (max-height: 568px) and (orientation : landscape){
+    .sign-area .sign-inner {
+        margin-top: 150px;
+    }
+
+    .user-wrapper .sign-inner {
+        transform: translateX(50%);
+    }
+}
+/* iPhone 5 portrait ----------- */
+@media only screen and (min-width: 320px) and (max-height: 568px) and (orientation : portrait){
+    .user-wrapper .sign-inner {
+        transform: translateX(50%);
+    }
+    .user-wrapper .sign-form .form-group .rem span a {
+        display: inline;
+    }
+}
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-width: 375px) and (max-height: 667px) and (orientation : landscape){
+    .user-wrapper .sign-inner {
+        transform: translateX(50%);
+    }
+}
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-width: 375px) and (max-height: 667px) and (orientation : portrait){
+    .user-wrapper .sign-inner {
+        transform: translateX(50%);
+    }
+}
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-width: 414px) and (max-height: 736px) and (orientation : landscape) {
+    .user-wrapper .sign-inner {
+        transform: translateX(50%);
+    }
+}
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-width: 414px) and (max-height: 736px) and (orientation : portrait) {
+    .user-wrapper .sign-inner {
+        transform: translateX(50%);
+    }
+}
+/* iPhone X ----------- */
+@media only screen and (min-width: 375px) and (max-height: 812px) and (orientation : landscape){
+    /* Styles */
+    }
+
+@media only screen and (min-width: 375px) and (max-height: 812px) and (orientation : portrait) {
+    .user-wrapper .sign-inner {
+        transform: translateX(50%);
+    }
+
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+    .sign-area .sign-inner {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+    .user-wrapper .sign-inner {
+        transform: translateX(50%);
+    }
+}
+
+/* TV (portrait) ----------- */
+
+
+/* TV (landscape) ----------- */
+
+@media only screen and (min-width : 1080px) and (max-width : 1920px) and (orientation : portrait) {
+    .sign-area .container {
+        height: 50%;
+    }
+
+    #content {
+        /* height: 91%; */
+    }
+
+}

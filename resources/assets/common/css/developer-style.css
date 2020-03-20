@@ -1,0 +1,29 @@
+.english-text {
+    direction: ltr;
+    text-align: right;
+}
+
+.dropzone .dz-preview .dz-error-message{
+    top: 90px !important ;
+    background-color: gray  !important;
+}
+.dropzone .dz-preview .dz-error-message span{
+    color: white !important;
+}
+.dropzone{
+    background: #fafafa!important;
+    min-height: 20.2rem;
+    border-radius: 14px;
+    border: 1px dashed #d3d3d3!important;
+}
+.dropzone i{
+    top: -11px;
+}
+.dropzone p.dragAndDrop{
+    position: relative;
+    bottom: 14px;
+    font-size: 18px;
+}
+.pp-item{
+    padding: 10px !important;
+}

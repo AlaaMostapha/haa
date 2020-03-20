@@ -1,0 +1,6 @@
+composer install --optimize-autoloader
+php artisan env:sync
+php artisan migrate
+php artisan db:seed
+php artisan debugbar:clear
+php artisan optimize:clear

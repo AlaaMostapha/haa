@@ -1,0 +1,379 @@
+* {
+    direction: rtl;
+    font-family: taj-rg;
+}
+
+.main-head .h-extra .main-nav {
+    margin: 0 0 0 40px;
+}
+
+.main-head .h-extra .main-nav ul li {
+    margin: 0 0 0 25px;
+}
+
+.notifications-menu {
+    margin: 0 0 0 35px;
+}
+
+.badgo {
+    left: 0;
+    right: auto;
+}
+
+.notifications-menu .sub-menu {
+    left: -100px;
+    right: auto;
+}
+
+.notifications-menu .sub-menu:before {
+    left: 104px;
+    right: auto;
+}
+
+.notifications-menu .menu-inner .i-top img {
+    float: right;
+}
+
+.notifications-menu .menu-inner .i-top ul .sub-menu {
+    left: -5px;
+    right: auto;
+}
+
+.notifications-menu .menu-inner .i-top ul .sub-menu:before {
+    left: 10px;
+    right: auto;
+}
+
+.notifications-menu .menu-inner .i-mid ul li img {
+    float: right;
+    margin: 0 0 0 20px;
+}
+
+.notifications-menu .menu-inner .i-mid ul li.new:before {
+    left: 20px;
+    right: auto;
+}
+
+.hero-s .inner,
+.hero-s .inner .container,
+.sidebar .inner .side-user .user-img,
+.sidebar .inner .side-user .user-img img,
+.sidebar .inner .side-user .user-img span {
+    transform: scaleX(-1);
+}
+
+.sidebar .inner .side-user .user-img:before {
+    left: auto;
+    right: 22px;
+}
+
+.g-footer .btn.btn-border,
+.whyhaa .why-data .btn.btn-border {
+    margin: 0 20px 0 0;
+}
+
+
+.whyhaa .why-data .g-head h3:after,
+.main-footer .f-top .f-item h3:after,
+.hero-s .inner .caption h3:before {
+    right: 0;
+    left: auto;
+}
+
+.main-footer .f-top .f-item ul li a:hover {
+    padding: 0 5px 0 0;
+}
+
+.social a,
+.hero-s .inner .btn {
+    margin: 0 0 0 20px;
+}
+
+.main-footer .f-top .f-item .form-group .btn,
+.main-footer .f-bottom .extra-links,
+.whyhaa .why-img,
+.notifications-menu .menu-inner .i-top ul,
+.main-head .h-extra,
+.sign-form .form-group .forgot,
+.sign-area .sign-inner .notifications-menu .menu-inner .i-mid ul li .new-controls a:nth-of-type(2) {
+    float: left;
+}
+
+.main-footer .f-bottom .extra-links li {
+    margin: 0 0 0 20px;
+}
+
+.main-head .h-extra .main-nav ul li a,
+.notifications-menu .menu-inner .i-mid ul li .data b,
+.hero-s .inner .caption h3,
+.btn,
+.g-head h3,
+.hworks .block .inner h3,
+.whyhaa .why-data p,
+.main-footer .f-top .f-item h3,
+.choose-inner p a,
+.sign-area .sign-inner .notifications-menu .menu-inner .i-mid ul li .new-controls a,
+.rate-title span,
+.prof-sidebar .inner .prof-info h3 {
+    font-family: taj-bd;
+}
+
+.sidebar .inner .side-user .user-img img {
+    margin: 0 0 0 5px;
+}
+
+.sign-area .sign-inner {
+    left: auto;
+    right: 50%; /*fix width of register screen ==> helal  */
+    transform: translateX(50%);
+}
+
+.sign-form {
+    float: none;
+}
+
+.sign-form .form-group .required,.required {
+    left: -10px;
+    right: auto;
+}
+
+.sign-area .sign-inner .sign-head h3,
+.file-upload-wrapper .card.card-body .file-upload-message p,
+.choose-inner h4,
+.main-head.inner-head .h-extra .main-nav ul li a,
+.prof-sidebar .inner .prof-info span {
+    font-family: taj-lt;
+}
+
+.sign-form .form-group .form-control span,
+.sign-form .form-group .form-control .list li {
+    text-align: right;
+}
+
+.sign-form .form-group .form-control:after {
+    left: 15px;
+    right: auto;
+}
+
+.sign-form .form-group .rem span {
+    padding: 0 30px 0 0;
+}
+
+.sign-form .form-group .rem span:before {
+    right: 0;
+    left: auto;
+    margin: 0 0 0 10px;
+}
+
+.prof-box .it-head h3 {
+    padding: 5px 0 0 20px;
+    font-family: taj-bd;
+}
+
+.prof-box .it-head .filter-options {
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+.prof-box .it-head .filter-options button {
+    margin: 0 10px 0 0;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    text-align: right;
+    direction: rtl;
+}
+
+.select2-container .select2-search--inline,
+.whyhaa.why-sec .why-img {
+    float: right;
+}
+
+.select2-results__option:before {
+    margin: 0 0 0 10px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    float: right;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__clear {
+    float: left;
+    margin: 5px 0 0 10px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.search-area .form-group .btn {
+    border-radius: 14px;
+    left: 0;
+    right: auto;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.box-item .table td:first-of-type {
+    border-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 27px;
+}
+
+.box-item .table td:last-of-type {
+    border-radius: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 27px;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+    background-position: 15% 50%;
+}
+
+.box-item .table td .menu-item-has-children .sub-menu {
+    left: 0;
+    right: auto;
+}
+
+.box-item .table td .it-info h3,
+.box-item .table td .it-price h3,
+.box-item .table td .it-date p,
+.box-item .table th {
+    font-family: taj-bd;
+}
+
+.stars,
+.stars form {
+    direction: ltr;
+}
+
+.prof-sidebar .inner .prof-rate span {
+    /* margin: 0 0 0 10px; */
+}
+
+.prof-sidebar .inner .prof-rate i:last-of-type {
+    margin: 0 0 0 10px;
+}
+
+.prof-sidebar .inner .prof-rate span {}
+
+.prof-sidebar .inner .prof-extra ul li span,
+.prof-box .box-item .rev-item .rev-desc p {
+    font-family: taj-lt;
+}
+
+.prof-sidebar .inner .prof-extra ul li p,
+.prof-sidebar .inner .prof-extra ul li i,
+.prof-box .box-item .rev-item .rev-head .data h3,
+.rev-more a {
+    font-family: taj-bd;
+}
+
+.prof-sidebar .inner .prof-bio p:before {
+    right: 25px;
+    left: auto;
+    transform: scale(13) scaleX(-1);
+}
+
+.box-item .table td .it-info img {
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+.prof-box .box-item .rev-item .rev-head img {
+    /* float: right;
+    margin: 0 0 0 20px; */
+}
+
+.box-item .nav-tabs li a,
+.tasks-wrap .box-item .table td .app-n a,
+.box-item .table td .status span {
+    font-family: taj-bd;
+}
+
+.box-item .nav-tabs li a:before {
+    margin: 0 0 0 10px;
+}
+
+.box-item .nav-tabs li {
+    margin: 0 0 0 80px;
+}
+
+.box-item .table td .status span:before {
+    margin: 0 0 0 8px;
+}
+
+.task-wrap h4,
+.task-head p,
+.task-info ul li,
+.company-info ul li,
+.task-desc h3,
+.task-chat .chat-inner .msg-item h2 a,
+.task-chat .chat-footer .form-group .chat-btn {
+    font-family: taj-bd;
+}
+
+.task-head p {
+    line-height: 1.3;
+}
+
+.task-info ul li span ,.company-info ul li span  {
+    /* margin: 0 100px 0 0; */
+    /* margin: 0 40px 0 0; */
+}
+
+.task-info:before,
+.task-info:after,
+.task-chat h4:after {
+    right: 0;
+    left: auto;
+}
+
+.task-chat .chat-inner .msg-item h2 {
+    direction: rtl;
+}
+
+.task-chat .chat-footer .form-group .chat-btn {
+    left: 30px;
+    right: auto;
+}
+
+.task-chat .chat-footer .form-group .chat-btn:before {
+    right: -35px;
+    left: auto;
+}
+
+.task-chat .chat-footer .form-control {
+    padding: 20px 20px 20px 130px !important;
+}
+
+.wallet-box .w-info h3 {
+    font-family: taj-lt;
+}
+
+.wallet-box .w-info .w-inner p,
+.wallet-box .w-info .w-inner p b,
+.wallet-box .w-info .w-inner span {
+    font-family: taj-bd;
+}
+
+.block .inner{
+    height: auto !important;
+}
+
+.form-fields-group{
+    padding: 0px !important;
+    margin-bottom: -3px !important;
+}
+
+@media (max-width: 600px) {
+    .open-menu {
+        margin: 0 10px 0 0;
+    }
+
+}

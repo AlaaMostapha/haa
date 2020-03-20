@@ -1,0 +1,10 @@
+.hidden-print, .modal, nav {
+    display: none !important;
+}
+body {
+    overflow: visible !important;
+    font-family: DejaVu Sans;
+}
+#page-wrapper {
+    margin: 0;
+}

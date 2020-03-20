@@ -1,0 +1,19 @@
+.left-text {
+    direction: ltr;
+    text-align: right;
+}
+.dropdown-menu {
+    right: auto;
+}
+.ibox-tools {
+    margin-top: -7px;
+}
+.ladda-button[data-style=expand-right][data-loading]{
+    padding-left: 56px;
+    padding-right: inherit;
+}
+.ladda-button[data-style=expand-right] .ladda-spinner{
+    left: -6px;
+    right: auto;
+}
+

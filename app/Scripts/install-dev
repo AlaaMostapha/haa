@@ -1,0 +1,12 @@
+echo "Please install the post-merge script by running ln -s FULL_DIRECTORY_PATH/app/scripts/post-merge-dev FULL_DIRECTORY_PATH/.git/hooks/post-merge"
+composer install --optimize-autoloader
+cp .env.example .env
+php artisan key:generate
+echo "Make sure to edit the parameters found in .env file before continue"
+php artisan migrate
+php artisan add:admin
+php artisan storage:link
+npm install
+
+ln -s /var/www/html/haa_backend/app/Scripts/post-merge /var/www/html/haa_backend/.git/hooks/post-merge
+* * * * * php /var/www/html/haa_backend/artisan schedule:run >> /dev/null 2>&1

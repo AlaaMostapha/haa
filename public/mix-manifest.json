@@ -1,0 +1,10 @@
+{
+    "/dashboard/css/app.css": "/dashboard/css/app.css",
+    "/frontend/css/app.min.css": "/frontend/css/app.min.css",
+    "/frontend/js/app.min.js": "/frontend/js/app.min.js",
+    "/dashboard/css/pdf-export.css": "/dashboard/css/pdf-export.css",
+    "/dashboard/css/rtl.min.css": "/dashboard/css/rtl.min.css",
+    "/dashboard/js/plugins/jquery-validation/dist/localization/messages_ar.js": "/dashboard/js/plugins/jquery-validation/dist/localization/messages_ar.js",
+    "/dashboard/css/vendor.css": "/dashboard/css/vendor.css",
+    "/dashboard/js/app.js": "/dashboard/js/app.js"
+}
